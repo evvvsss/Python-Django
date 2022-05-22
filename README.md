@@ -34,5 +34,6 @@ def index(request):
 Для связывания этой функции с соответствующим URL адресом: идем в urls.py и там добавляем маршрут в urlpatterns:
 path('app_name/', index)    #где index - ссылка на функцию представления( from app_name.views import index
  
-  
+## SQL
+Устанавливаем pgAdmin 4 - для создания БД. 
 
