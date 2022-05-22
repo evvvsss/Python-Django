@@ -1,7 +1,7 @@
 # Python-Django
 
 # bash commands:  
-Виртуальное окружение (в корневой папке):  
+## Виртуальное окружение (в корневой папке):  
 /usr/local/bin/python3 -m venv local_lib  
 source local_lib/bin/activate  
 python3 -m pip install --upgrade pip  
@@ -16,7 +16,7 @@ deactivate
 Все команды которые можно использовать:  
 django-admin
 
- Создание проекта и приложения:   
+## Создание проекта и приложения:   
 django-admin startproject ptoject_name  
 python manage.py startapp app_name  
 python manage.py runserver #по умолч порт 8000, можно указать цифру после run-server для другого порта  
