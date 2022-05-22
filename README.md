@@ -34,6 +34,23 @@ def index(request):
 Для связывания этой функции с соответствующим URL адресом: идем в urls.py и там добавляем маршрут в urlpatterns:
 path('app_name/', index)    #где index - ссылка на функцию представления( from app_name.views import index
  
+ ## Установка PostgreSQL  
+ Сначала установим Brew:  
+ curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh  
+ 
+ Потом установим PostgreSQL:  
+ brew install postgres  
+ pg_ctl -D /usr/local/var/postgres start #запуск вручную  
+ brew services restart postgresql #перезагрузка  
+ 
+ Подключение к Postreesql:  
+ psql -l  
+ sudo psql -U Dream -d postgres  
+ createdb dbname #создать ДБ  
+ dropdb dbname #удалить ДБ  
+ CREATE DATABASE dbname   
+ dbname='stocks'  
+ Сайт где все описано как работать с PostgreSQL: https://ploshadka.net/postgresql/
 ## SQL
 Устанавливаем pgAdmin 4 - для создания БД. 
 
