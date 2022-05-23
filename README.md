@@ -53,4 +53,4 @@ path('app_name/', index)    #где index - ссылка на функцию п�
  Сайт где все описано как работать с PostgreSQL: https://ploshadka.net/postgresql/
 ## SQL
 Устанавливаем pgAdmin 4 - для создания БД. 
-
+brew services restart postgresql 
