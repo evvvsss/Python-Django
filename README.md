@@ -54,3 +54,7 @@ path('app_name/', index)    #где index - ссылка на функцию п�
 ## SQL
 Устанавливаем pgAdmin 4 - для создания БД. 
 brew services restart postgresql 
+## Миграции
+ python manage.py makemigrations #берет текущие модели и по ним строит файл миграции
+ python manage.py sqlmigrate model_name number_of_migration #
+ python manage.py migrate  #берет этот файл и применяет ее к БД
