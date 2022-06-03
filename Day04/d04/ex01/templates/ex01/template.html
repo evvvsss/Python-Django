@@ -1,0 +1,24 @@
+{% extends 'ex01/base.html' %} {% load static %} {% block title %}
+<title>Ex01: Template engine.</title>
+{% endblock title %} {% block style %}
+<link rel="stylesheet" type="text/css" href="{% static 'style2.css' %}" />
+{% endblock style %} {% block content %}
+
+<div class="content">
+  <h1>Django Block Content</h1>
+    <a>Block Content in Django is the concept of working with Template Inheritance. As you add more templates to your project, you will notice that a lot of the markup is duplicated. Every template will have an opening <HTML> tag, an opening <head> tag, a closing </head> tag, a closing </HTML> tag and so on and so forth. The general structure of the HTML document stays fairly consistent, while the content inside the structure may change. With Block Content and Template Inheritance, it is possible to define the skeleton HTML template once and then inherit from that base for other templates. In this tutorial, we’ll take a look at how to accomplish that.  </a>
+  <h2> If statement in Python</h2>
+     <a>An if statement starts with if keyword which should always be written in lowercase followed by an expression. If the expression returns a True value then the statement below the if statement will get executed and if it returns False then the interpreter will skip over this part.</a>
+
+    <h2> Django for loop in template </h2>
+     <a> To create and use for loop in Django, we generally use the “for” template tag. This tag helps to loop over the items in the given array, and the item is made available in the context variable.</a>
+
+    <h2> The display of the passing context variables </h2>
+     <a> A template is a text document, or a normal Python string, that is marked-up using the Django template language. A template can contain block tags or variables.
+
+A block tag is a symbol within a template that does something.
+
+This definition is deliberately vague. For example, a block tag can output content, serve as a control structure (an “if” statement or “for” loop), grab content from a database or enable access to other template tags.</a>
+  </div>
+
+{% endblock content %}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>revolutionary resume generator!</title>
+    </head>
+    <body>
+		<p>"- Who are you?</p>
+		<p>- A {name}!"</p>
+		<p>"- How much do you sleep?</p>
+		<p>- {hours} hours per day ))"</p>
+		<p>"- How old are you?</p>
+		<p>- I'm {age}!"</p>
+		<p>"- Do you like cats?</p>
+		<p>- {cats}!"</p>
+	</body>
+</html>

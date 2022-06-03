@@ -1,0 +1,15 @@
+{% extends 'ex01/base.html' %} {% block title %}
+<title>Ex01: Display process of a static page.</title>
+{% endblock title %} {% block content %}
+<div role="main" class="content">
+    <h1>Static Websites</h1>
+     <p>
+        Static site is mainly used to distribute a fixed information from the web server to the browser running on a client computer.
+         All visitors will see exactly the same content each time when they load the page.
+        Generally static sites are created with Hyper Text Markup Language (HTML) but it is not necessary that all HTML pages are static. For example, a JavaScript code embedded in an HTML page will still show as HTML page with .html extension when opened in a browser.
+        When a visitor enters a URL in the web browser running on a computer, browser sends an HTTP request to the server. The web server simply sends an HTTP response to indicate the availability of the requested URL. The response will be completed by sending the content of the requested URL to the client. In general web server does not perform any code processing in a static web page. Pictorial representation of a browser displaying a static website content is shown in the below picture.
+     </p>
+
+
+</div>
+{% endblock %}

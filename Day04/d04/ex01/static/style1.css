@@ -1,0 +1,10 @@
+* {
+  color: blue;
+}
+
+.content {
+  width: 780px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 10px;
+}
